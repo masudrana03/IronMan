@@ -9,4 +9,32 @@
 -----------------------------------------------------------------------------------
  */
 
+ /* register common css */
+ @import url('common.css');
+
+
+/* register padding css */
+@import url('padding.css');
+
+/* register margin css */
+@import url('margin.css');
+
+/* register display css */
+@import url('display.css');
+
+/* register forms css */
+@import url('forms.css');
+
+
+
+
+
+
+
+
+
+
+
+
+
 
