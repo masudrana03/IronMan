@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I'm Iron Man</title>
+
+    <!-- font-awesome -->
+    <!-- <link rel="stylesheet" href="assets/fonts/feather/css/feather.css"> -->
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <!-- from component One -->
+
+    <h2 class="pt-22" style="text-align: center">HTML Forms</h2>
+    <div class="from pt-26">
+        <form action="#">
+            <div>
+                <label for="fname">First name:</label><br />
+                <input type="text" id="fname" name="fname" value="John" />
+            </div>
+            <br />
+            <div>
+                <label for="lname">Last name:</label><br />
+                <input type="text" id="lname" name="lname" value="Doe" />
+            </div>
+            <br />
+            <!--  -->
+            <div class="form-group">
+                <label for="lname">Password:</label><br />
+                <input id="password" type="password"
+                    class="password_with_eye" name="password"
+                    required autocomplete="new-password" placeholder="Password" />
+                <i class="fa fa-eye-slash eye-icon" aria-hidden="true"></i>
+                <div id="pass_available" class="mt-1"></div>
+            </div>
+            <br />
+            <div class="form-group">
+                <label for="lname">Password Confirmation:</label><br />
+                <input type="password" class="password_with_eye" name="password_confirmation"
+                    id="repassword" required autocomplete="new-password" placeholder="Confirm Password" />
+                <div id="repass_available" class="mt-1"></div>
+            </div>
+            <br />
+
+            <button type="submit">submit</button>
+        </form>
+    </div>
+    <!-- js script -->
+    <script src="/assets/js/jquery-3.6.1.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#password, #repassword").on("keyup change", function () {
+                let password = $("#password").val();
+                let repassword = $("#repassword").val();
+
+                if (validatePassword(password)) {
+                    $("#pass_available").html(
+                        `<span class="badge badge-success mt-10" >Password acceptable</span>`
+                    );
+
+                    if (password != repassword || password == "") {
+                        if (repassword.length > 0) {
+                            $("#repass_available").html(
+                                `<span class="badge badge-danger mt-10">Password not matched</span>`
+                            );
+                        }
+                    } else {
+                        $("#repass_available").html(
+                            `<span class="badge badge-success mt-10">Password matched</span>`
+                        );
+                    }
+                } else {
+                    $("#pass_available").html(
+                        `<span id="characters" class="badge badge-danger in-active mt-10"> Password must contain at least 8 characters:</span><br>\
+                         <span id="uppercase" class="badge badge-danger in-active mt-10" > including at least 1 Uppercase letter </span><br>\
+                         <span id="lowercase" class="badge badge-danger in-active mt-10" > 1 Lowercase letter </span><br>\
+                         <span id="number" class="badge badge-danger in-active mt-10" > 1 Number  </span><br>\
+                         <span id="special" class="badge badge-danger in-active mt-10"> 1 Special character</span>`
+                    );
+
+                    var upperCaseLetters = /[A-Z]/g;
+                    var lowerCaseLetters = /[a-z]/g;
+                    var numbers = /[0-9]/g;
+                    var characters = $("#characters");
+                    var uppercase = $("#uppercase");
+                    var lowercase = $("#lowercase");
+                    var number = $("#number");
+                    var special = $("#special");
+
+                    if (password.length > 8) {
+                        characters.removeClass("in-active");
+                        characters.addClass("active");
+                    }
+
+                    if (password.match(upperCaseLetters)) {
+                        uppercase.removeClass("in-active");
+                        uppercase.addClass("active");
+                    }
+
+                    if (password.match(lowerCaseLetters)) {
+                        lowercase.removeClass("in-active");
+                        lowercase.addClass("active");
+                    }
+
+                    if (password.match(numbers)) {
+                        number.removeClass("in-active");
+                        number.addClass("active");
+                    }
+
+                    if (/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/.test(password)) {
+                        special.removeClass("in-active");
+                        special.addClass("active");
+                    }
+
+                }
+            });
+
+            function validatePassword(password) {
+                const re =
+                    /(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*()+=-\?;,./{}|\":<>\[\]\\\' ~_]).{8,}/;
+                return re.test(password);
+            }
+        });
+    </script>
+</body>
+
+</html>
