@@ -97,6 +97,7 @@
                     var lowercase = $("#lowercase");
                     var number = $("#number");
                     var special = $("#special");
+                    var symbolCharacter = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/;
 
                     if (password.length > 8) {
                         characters.removeClass("in-active");
@@ -118,7 +119,7 @@
                         number.addClass("active");
                     }
 
-                    if (/[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/.test(password)) {
+                    if (symbolCharacter.test(password)) {
                         special.removeClass("in-active");
                         special.addClass("active");
                     }
