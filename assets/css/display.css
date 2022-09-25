@@ -1,0 +1,10 @@
+/* display css added. */
+
+.d-f{display: flex !important}
+.d-block {display: block!important;}
+.d-none {display: none!important;}
+.position-static{position: static!important;}
+.position-a{position: absolute;}
+.justify-center{justify-content: center;}
+.justify-end{justify-content: end;}
+
