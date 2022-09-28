@@ -261,7 +261,7 @@
 .mx-44 { margin-left: 44px; margin-right: 44px; } 
 .mx-46 { margin-left: 46px; margin-right: 46px; } 
 .mx-48 { margin-left: 48px; margin-right: 48px; } 
-.mx-50 { margin-left: 50px; margin-right: 50px; }
+.mx-50 { margin-left: 50px; margin-right: 50px; } 
 
 
 /* margin top & margin bottom component */
@@ -285,6 +285,39 @@
 .my-44 { margin-top: 44px; margin-bottom: 44px; } 
 .my-46 { margin-top: 46px; margin-bottom: 46px; } 
 .my-48 { margin-top: 48px; margin-bottom: 48px; } 
-.my-50 { margin-top: 50px; margin-bottom: 50px; }
+.my-50 { margin-top: 50px; margin-bottom: 50px; } 
 
 /* if any component need add hear */
+
+.mt-40 { margin-top: 40px; } 
+.mt-70 { margin-top: 70px; } 
+.mt-90 { margin-top: 90px; } 
+.mt-134 { margin-top:134px; } 
+
+.mb-50 { margin-bottom:50px; } 
+.mb-54 { margin-bottom:54px; } 
+.mb-56 { margin-bottom:56px; } 
+.mb-60 { margin-bottom:60px; } 
+.mb-64 { margin-bottom:64px; } 
+.mb-70 { margin-bottom:70px; } 
+.mb-76 { margin-bottom:76px; } 
+.mb-80 { margin-bottom:80px; } 
+.mb-86 { margin-bottom:86px; } 
+.mb-90 { margin-bottom:90px; } 
+.mb-93 { margin-bottom:93px; } 
+.mb-100 { margin-bottom:100px; } 
+.mb-107 { margin-bottom:107px; } 
+.mb-118 { margin-bottom:118px; } 
+.mb-137 { margin-bottom: 137px; } 
+.mb-158 { margin-bottom: 158px; } 
+.mb-170 { margin-bottom:170px; } 
+.mb-188 { margin-bottom:188px; } 
+.mb-193 { margin-bottom:193px; } 
+.mb-216 { margin-bottom:216px; } 
+.mb-235 { margin-bottom:235px; } 
+
+.ml--8 { margin-left: -8px; } 
+.ml-10 { margin-left:10px; } 
+
+.mr--8 { margin-right: -8px; } 
+

@@ -8,3 +8,23 @@
 .justify-center{justify-content: center;}
 .justify-end{justify-content: end;}
 
+
+
+
+
+
+.text-white{color: #fff !important;}
+.text-center{text-align: center;}
+.w-100{width: 100%;}
+.w-p-10{width: 10px;}
+.p-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.p-text a{
+    font-weight: 700;
+    color: #937651;
+    text-decoration: none;
+}

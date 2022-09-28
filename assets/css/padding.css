@@ -261,7 +261,7 @@
 .px-44 { padding-left: 44px; padding-right: 44px; } 
 .px-46 { padding-left: 46px; padding-right: 46px; } 
 .px-48 { padding-left: 48px; padding-right: 48px; } 
-.px-50 { padding-left: 50px; padding-right: 50px; }
+.px-50 { padding-left: 50px; padding-right: 50px; } 
 
 
 /* padding top & padding bottom component */
@@ -285,6 +285,18 @@
 .py-44 { padding-top: 44px; padding-bottom: 44px; } 
 .py-46 { padding-top: 46px; padding-bottom: 46px; } 
 .py-48 { padding-top: 48px; padding-bottom: 48px; } 
-.py-50 { padding-top: 50px; padding-bottom: 50px; }
+.py-50 { padding-top: 50px; padding-bottom: 50px; } 
 
 /* if any component need add hear */
+
+
+.pt-59 { padding-top:59px; } 
+.pt-74 { padding-top:74px; } 
+.pt-76 { padding-top:76px; } 
+.pt-96 { padding-top:96px; } 
+.pt-236 { padding-top:236px; } 
+
+.px-33 { padding-left: 33px; padding-right: 33px; } 
+.px-35 { padding-left: 35px; padding-right: 35px; } 
+.px-37 { padding-left: 37px; padding-right: 37px; } 
+.px-49 { padding-left: 49px; padding-right: 49px; } 

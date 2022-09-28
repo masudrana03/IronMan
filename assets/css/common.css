@@ -4,8 +4,7 @@
  ----------------------
  */
 
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100; 0,300; 0,400; 0,700; 0,900; 1,300; 1,400; 1,700; 1,900&display=swap");
- /*
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100; 0,300; 0,400; 0,700; 0,900; 1,300; 1,400; 1,700; 1,900&display=swap"); /*
  ----------------------
 Front import end
  ----------------------
@@ -14,13 +13,7 @@ Front import end
 
 * { margin: 0; padding: 0; list-style: inherit; box-sizing: border-box; font-family: "Lato", sans-serif; } 
 
-::-webkit-scrollbar { display: none; } 
-
-/* Hide scrollbar for IE, Edge and Firefox */
-::-webkit-scrollbar { -ms-overflow-style: none; /* IE and Edge */
-scrollbar-width: none; /* Firefox */ } 
-
-body { background: #e6e6e6; } 
+body { background: #abc1eb; } 
 
 h1,
 h2,
@@ -35,29 +28,30 @@ Font Section
  ----------------------
  */
 
-.fsw-16 { font-size: 16px !important; line-height: 20px !important; } 
-.fsw-18 { font-size: 18px !important; line-height: 20px !important; } 
+.fsw-16 { font-size: 16px; line-height: 20px; } 
+.fsw-18 { font-size: 18px; line-height: 20px; } 
 
-.fs-12 { font-size: 12px !important; line-height: 16px !important; } 
+.fs-12 { font-size: 12px; line-height: 16px; } 
 .fs-14 { font-size: 14px; line-height: 17px; } 
-.fs-16 { font-size: 16px !important; line-height: 20px !important; } 
-.fs-18 { font-size: 18px !important; line-height: 20px !important; } 
-.fs-20 { font-size: 20px !important; line-height: 30px !important; } 
-.fs-24 { font-size: 20px !important; line-height: 23px !important; } 
+.fs-16 { font-size: 16px; line-height: 20px; } 
+.fs-18 { font-size: 18px; line-height: 20px; } 
+.fs-20 { font-size: 20px; line-height: 30px; } 
+.fs-24 { font-size: 20px; line-height: 23px; } 
 
 
 .fb-16 { font-size: 16px; line-height: 20px; } 
 .fb-18 { font-size: 18px; line-height: 20px; } 
 .fb-22 { font-size: 22px; line-height: 25px; } 
-.fb-24 { font-size: 24px !important; line-height: 28px !important; } 
-.fb-32 { font-size: 32px !important; line-height: 38px !important; } 
-.fb-36 { font-size: 36px !important; line-height: 42px !important; } 
-.fb-40 { font-size: 40px !important; line-height: 47px !important; } 
+.fb-24 { font-size: 24px; line-height: 28px; } 
+.fb-32 { font-size: 32px; line-height: 38px; } 
+.fb-36 { font-size: 36px; line-height: 42px; } 
+.fb-40 { font-size: 40px; line-height: 47px; } 
 
-.fxb-36 { font-weight: 900 !important; font-size: 34px !important; line-height: 42px !important; } 
+.fxb-36 { font-weight: 900; font-size: 34px; line-height: 42px; } 
 
 .ff-lato { font-family: "Lato", sans-serif; } 
-/* .ff-poppins { font-family: 'Poppins', sans-serif; } */
+.ff-roboto{font-family: 'Roboto', sans-serif;}
+.ff-poppins{font-family: 'Poppins', sans-serif;}
 
 
 /* Font weight Section */
@@ -67,3 +61,16 @@ Font Section
 .fw-700 { font-weight: 700; } 
 .fw-800 { font-weight: 800; } 
 .fw-900 { font-weight: 900; } 
+
+
+::-webkit-scrollbar { display: none; } 
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+::-webkit-scrollbar { -ms-overflow-style: none; /* IE and Edge */
+scrollbar-width: none; /* Firefox */ } 
+
+
+.select2-container--default .select2-selection--single { background-color: transparent !important; border: none !important; border-radius: 0px !important; border-bottom: 0.5px solid #8F8F8F !important; } 
+
+.select2-container--default .select2-selection--single .select2-selection__rendered { color: #FFFFFF !important; line-height: 28px; } 

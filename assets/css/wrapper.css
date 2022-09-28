@@ -1,0 +1,43 @@
+/* wrapper css */
+
+
+
+
+.wrapper{
+    min-height: 100vh;
+    position: relative;
+    max-width: 428px;
+    margin: 0 auto;
+}
+
+.bg-none{background: none;}
+.bg-white{background-color:#fff;}
+
+.bg-img{
+    background-image: url("../img/AI_Image\ 2\ blue.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg-img-white{
+    background-image: url("../img/ai_image_invert.png");
+    background-position: center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.bg-black{
+    background: #001229;
+    position: relative;
+}
+
+.wrapper .logo{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.wrapper .logo a{
+    display: block;
+    text-align: center;
+}
+.wrapper .logo img{height: 62px;}
