@@ -56,6 +56,7 @@
   font-size: 0.92em !important;
   background-color: #f00000 !important;
 }
+
 .active {
   color: #fff !important;
   text-align: center !important;
@@ -65,24 +66,27 @@
 
 
 
-.welcome-page{
+.welcome-page {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.welcome-page .logo{
+.welcome-page .logo {
   margin-bottom: 29vh;
   padding-left: 34px;
   padding-right: 34px;
 }
 
-.welcome-page .logo img{height: auto;}
-
-.welcome-bottom{
-margin-bottom: 14.33vh;
+.welcome-page .logo img {
+  height: auto;
 }
-.welcome-bottom p{
+
+.welcome-bottom {
+  margin-bottom: 14.33vh;
+}
+
+.welcome-bottom p {
   font-family: 'Poppins';
   font-weight: 500;
   font-size: 14px;
@@ -91,14 +95,15 @@ margin-bottom: 14.33vh;
   text-align: center;
   margin-top: 40px;
 }
-.welcome-bottom p a{
+
+.welcome-bottom p a {
   display: inline-block;
   color: #fff;
 }
 
 
 /* some custom styles for fixing design issue*/
-.errors{
+.errors {
   padding-left: 12%;
   padding-bottom: 6%;
   font-size: 14px;
@@ -107,7 +112,7 @@ margin-bottom: 14.33vh;
 }
 
 
-.page-divider{
+.page-divider {
   height: 1px;
   width: auto;
   background-color: #8F8F8F;
@@ -115,9 +120,8 @@ margin-bottom: 14.33vh;
 }
 
 
-.img-fluid{
+.img-fluid {
   max-width: 100%;
   display: block;
   margin: 0 auto;
 }
-

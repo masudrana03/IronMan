@@ -1,151 +1,59 @@
 /* wrapper css */
 
-
-
-
-.wrapper{
+.wrapper {
     min-height: 100vh;
     position: relative;
     max-width: 428px;
     margin: 0 auto;
 }
 
-.bg-none{background: none;}
-.bg-white{background-color:#fff;}
-
-.bg-img{
-    background-image: url("../img/AI_Image\ 2\ blue.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.bg-img-white{
-    background-image: url("../img/ai_image_invert.png");
-    background-position: center center;
-    background-size: auto;
-    background-repeat: no-repeat;
-}
-
-.bg-black{
-    background: #001229;
-    position: relative;
-}
-
-.wrapper .logo{
+.wrapper .logo {
     padding-left: 30px;
     padding-right: 30px;
 }
 
-.wrapper .logo a{
+.wrapper .logo a {
     display: block;
     text-align: center;
 }
-.wrapper .logo img{height: 62px;}
 
-
-
-
-.wrapper{
-    min-height: 100vh;
-    position: relative;
-    max-width: 428px;
-    margin: 0 auto;
+.wrapper .logo img {
+    height: 62px;
 }
 
-.bg-none{background: none;}
-.bg-white{background-color:#fff;}
+.bg-none {
+    background: none;
+}
 
-.bg-common{
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-black {
+    background: #000000;
+}
+
+.bg-blue-8 {
+    background: #001229;
+}
+
+.bg-common {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.bg-pro-info{
+.bg-img {
+    background-image: url("../img/AI_Image\ 2\ blue.png");
+}
+
+.bg-img-white {
+    background-image: url("../img/ai_image_invert.png");
+}
+
+.bg-pro-info {
     background-image: url("/assets/img/bg-pro-info.png");
 }
-.bg-inquire{
-    background-image: url("/assets/img/bg-Inquire.png");
-}
 
-.bg-service{
-    background-image: url("/assets/img/bg-service.png");
-}
-.bg-insurance{
-    background-image: url("/assets/img/bg-insurance.png");
-}
-
-.bg-dashboard{
-    background-image: url("/assets/img/bg-dashboard.png");
-}
-
-.bg-login{
-    background-image: url("/assets/img/bg-login.png");
-}
-
-.bg-uae{
-    background-image: url("/assets/img/bg-uae-pass.png");
-}
-
-.bg-get-start{
-    background-image: url("/assets/img/get-start.png");
-}
-
-.bg-img{
-    background-image: url("/assets/img/AI_Image_2_blue.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.loader-bg-img{
-    background-image: url("/assets/img/loader-bg.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.bg-img-white{
-    background-image: url("/assets/img/ai_image_invert.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.info-bg-img{
-    background-image: url("/assets/img/AI_Image invert 1.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.view-bg-img{
-    background-image: url("/assets/img/view-bg.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-.upgrade-bg-img{
-    background-image: url("/assets/img/upgrade-bg.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.bg-black{
-    background: #001229;
-    position: relative;
-}
-
-.wrapper .logo{
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.wrapper .logo a{
-    display: block;
-    text-align: center;
-}
-.wrapper .logo img{height: 62px;}
-
+/* */

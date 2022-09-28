@@ -1,4 +1,3 @@
-
 /* ./RegFinish Page*/
 /* RegModal Page*/
 
@@ -67,17 +66,19 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding:0 17px 34px;
+    padding: 0 17px 34px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
 
-.modal .btn-close{font-size: 14px;}
+.modal .btn-close {
+    font-size: 14px;
+}
 
 .modal .btn-ok,
 .modal .btn-close,
-.modal .btn-cancel{
+.modal .btn-cancel {
     border: 0;
     outline: 0;
     cursor: pointer;
@@ -86,8 +87,9 @@
     line-height: 24px;
     text-align: center;
 }
+
 .modal .btn-ok,
-.modal .btn-cancel{
+.modal .btn-cancel {
     height: 48px;
     width: calc(50% - 8px);
     background: #FFFFFF;
@@ -162,17 +164,19 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding:0 17px 34px;
+    padding: 0 17px 34px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
 
-.modal .btn-close{font-size: 14px;}
+.modal .btn-close {
+    font-size: 14px;
+}
 
 .modal .btn-ok,
 .modal .btn-close,
-.modal .btn-cancel{
+.modal .btn-cancel {
     border: 0;
     outline: 0;
     cursor: pointer;
@@ -181,8 +185,9 @@
     line-height: 24px;
     text-align: center;
 }
+
 .modal .btn-ok,
-.modal .btn-cancel{
+.modal .btn-cancel {
     height: 48px;
     width: calc(50% - 8px);
     background: #FFFFFF;
@@ -257,17 +262,19 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding:0 17px 34px;
+    padding: 0 17px 34px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
 
-.modal .btn-close{font-size: 14px;}
+.modal .btn-close {
+    font-size: 14px;
+}
 
 .modal .btn-ok,
 .modal .btn-close,
-.modal .btn-cancel{
+.modal .btn-cancel {
     border: 0;
     outline: 0;
     cursor: pointer;
@@ -276,42 +283,51 @@
     line-height: 24px;
     text-align: center;
 }
+
 .modal .btn-ok,
-.modal .btn-cancel{
+.modal .btn-cancel {
     height: 48px;
     width: calc(50% - 8px);
     background: #FFFFFF;
     border-radius: 5px;
 }
+
 /* ./RegModal Page*/
 /* property Page*/
-.property-page .property-item-inner{
+.property-page .property-item-inner {
     max-height: 42.2vh;
 }
-.property-checkbox{
+
+.property-checkbox {
     overflow: hidden;
 }
-.property-checkbox .form-check{
+
+.property-checkbox .form-check {
     float: right;
     padding-left: 0;
 }
-.property-checkbox .form-check-input{
+
+.property-checkbox .form-check-input {
     margin-top: 0;
     margin-left: 0;
 }
+
 /* ./property Page*/
 
-.g-10{gap: 10px;}
-.row{
+.g-10 {
+    gap: 10px;
+}
+
+.row {
     display: flex;
     flex-wrap: wrap;
 }
 
-.col-6{
+.col-6 {
     flex: 0 0 auto;
     width: 50%;
 }
-.valuation-box{
-    overflow-y:auto;
-}
 
+.valuation-box {
+    overflow-y: auto;
+}
