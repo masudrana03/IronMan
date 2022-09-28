@@ -50,19 +50,30 @@
 .h-90 { height: 90%; } 
 .h-100 { height: 100%; } 
 
+
 .p-text { font-weight: 500; font-size: 14px; line-height: 21px; color: #FFFFFF; } 
 .p-text a { font-weight: 700; color: #937651; text-decoration: none; } 
+.text-forgot-pass a,
+.text-sign-up a { font-weight: 400; } 
+.text-forgot-pass a { color: #fff; } 
+.text-sign-up a { color: #BF9C76; } 
+.text-forgot-pass,
+.text-sign-up { font-weight: 400; font-size: 16px; line-height: 24px; color: #fff; } 
 
 .img-fluid { max-width: 100%; display: block; margin: 0 auto; } 
 
 
 /* */
 
-.text-white { color: #fff !important; } 
+.text-black { color: #000; } 
+.text-white { color: #fff; } 
 .text-center { text-align: center; } 
 .text-d-none { text-decoration: none; } 
 .text-d-underline { text-decoration: underline; } 
-.border-b-blue { border-bottom: 1px solid #001a40 !important; } 
-.border-b-gold { border-bottom: 1px solid #BF9C76 !important; } 
+
+
+.border-none { border-bottom: none; } 
+.border-b-blue { border-bottom: 1px solid #001a40; } 
+.border-b-gold { border-bottom: 1px solid #BF9C76; } 
 
 /* */
