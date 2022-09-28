@@ -1,190 +1,109 @@
 /* display css added. */
+.d-block { display: block; } 
+.d-none { display: none; } 
+.d-f { display: flex; } 
+.justify-center { justify-content: center; } 
+.justify-end { justify-content: end; } 
+.justify-a-c { justify-items: center; } 
 
-.d-f{display: flex !important}
-.d-block {display: block!important;}
-.d-none {display: none!important;}
-.position-static{position: static!important;}
-.position-a{position: absolute;}
-.justify-center{justify-content: center;}
-.justify-end{justify-content: end;}
-
-
-
+.position-static { position: static; } 
+.position-a { position: absolute; } 
 
 
 
-.text-white{color: #fff !important;}
-.text-center{text-align: center;}
-.w-100{width: 100%;}
-.w-p-10{width: 10px;}
-.p-text{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
-    color: #FFFFFF;
-}
-.p-text a{
-    font-weight: 700;
-    color: #937651;
-    text-decoration: none;
-}
 
-.text-forgot-pass,
-.text-sign-up{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #fff;
-}
+
+.w-2 { width: 2%; } 
+.w-4 { width: 4%; } 
+.w-6 { width: 6%; } 
+.w-8 { width: 8%; } 
+.w-10 { width: 10%; } 
+.w-12 { width: 12%; } 
+.w-14 { width: 14%; } 
+.w-16 { width: 16%; } 
+.w-18 { width: 18%; } 
+.w-18 { width: 18%; } 
+.w-18 { width: 18%; } 
+.w-20 { width: 20%; } 
+.w-22 { width: 22%; } 
+.w-24 { width: 24%; } 
+.w-25 { width: 25%; } 
+
+.w-30 { width: 30%; } 
+.w-40 { width: 40%; } 
+.w-50 { width: 50%; } 
+.w-60 { width: 60%; } 
+.w-70 { width: 70%; } 
+.w-80 { width: 80%; } 
+.w-90 { width: 90%; } 
+.w-90 { width: 90%; } 
+.w-100 { width: 100%; } 
+
+
+.h-2 { height: 2%; } 
+.h-4 { height: 4%; } 
+.h-6 { height: 6%; } 
+.h-8 { height: 8%; } 
+.h-10 { height: 10%; } 
+.h-12 { height: 12%; } 
+.h-14 { height: 14%; } 
+.h-16 { height: 16%; } 
+.h-18 { height: 18%; } 
+.h-18 { height: 18%; } 
+.h-18 { height: 18%; } 
+.h-20 { height: 20%; } 
+.h-22 { height: 22%; } 
+.h-24 { height: 24%; } 
+.h-25 { height: 25%; } 
+
+.h-30 { height: 30%; } 
+.h-40 { height: 40%; } 
+.h-50 { height: 50%; } 
+.h-60 { height: 60%; } 
+.h-70 { height: 70%; } 
+.h-80 { height: 80%; } 
+.h-90 { height: 90%; } 
+.h-90 { height: 90%; } 
+.h-100 { height: 100%; } 
+
+
+
+
+
+
+
+.text-black { color: #000; } 
+.text-white { color: #fff; } 
+.text-center { text-align: center; } 
+.text-d-none { text-decoration: none; } 
+.text-d-underline { text-decoration: underline; } 
+
+
+.p-text { font-weight: 500; font-size: 14px; line-height: 21px; color: #FFFFFF; } 
+.p-text a { font-weight: 700; color: #937651; text-decoration: none; } 
+
 .text-forgot-pass a,
-.text-sign-up a{font-weight: 400;}
-.text-forgot-pass a{color: #fff;}
-.text-sign-up a{color: #BF9C76;}
-
-
-.text-black {
-    color: black;
-  }
-
-
-
-  .float-r {
-    float: right;
-  }
-
-
-  .collapsible {
-    background-color: #ffffff;
-    color: #001a40;
-    cursor: pointer;
-    padding: 16px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 18px;
-  }
-
-  .active,
-  .collapsible:hover {
-    background-color: #fdfdfd;
-  }
-
-  .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
-  }
-
-  .border-none {
-    border-bottom: none;
-  }
-  .text-forgot-pass,
-  .text-sign-up{
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 24px;
-      color: #fff;
-  }
-  .text-forgot-pass a,
-  .text-sign-up a{font-weight: 400;}
-  .text-forgot-pass a{color: #fff;}
-  .text-sign-up a{color: #BF9C76;}
-  
-  /* ./SignIn Page*/
-
-  .d-f{display: flex !important;}
-.d-block {display: block!important;}
-.d-none {display: none!important;}
-.position-static{position: static!important;}
-.position-a{position: absolute;}
-.justify-center{justify-content: center;}
-.justify-a-c{justify-items: center;}
-.justify-end{justify-content: end;}
-
-.text-white{color: #fff !important;}
-.text-center{text-align: center;}
-.text-d-none {text-decoration: none;}
-.text-d-underline {text-decoration: underline;}
-.border-b-blue {border-bottom: 1px solid #001a40 !important;}
-.border-b-gold {border-bottom: 1px solid #BF9C76 !important;}
-
-.w-80 {width: 80%;}
-.w-60 {width: 60%;}
-.w-50 {width: 50%;}
-.w-45 {width: 45%;}
-.w-100{width: 100%;}
-.w-p-10{width: 10px;}
-
-.h72 { height: 72px; }
-.h76 { height: 76px; }
-
-.p-text{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
-    color: #FFFFFF;
-}
-.p-text a{
-    font-weight: 700;
-    color: #937651;
-    text-decoration: none;
-}
-
-/*SignIn Page*/
+.text-sign-up a { font-weight: 400; } 
+.text-forgot-pass a { color: #fff; } 
+.text-sign-up a { color: #BF9C76; } 
 .text-forgot-pass,
-.text-sign-up{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #fff;
-}
-.text-forgot-pass a,
-.text-sign-up a{font-weight: 400;}
-.text-forgot-pass a{color: #fff;}
-.text-sign-up a{color: #BF9C76;}
+.text-sign-up { font-weight: 400; font-size: 16px; line-height: 24px; color: #fff; } 
 
 
 
+.float-r { float: right; } 
+.float-l { float: left; } 
 
-.blue-700{color: #001A40;}
 
-.d-f{display: flex !important;}
-.d-block {display: block!important;}
-.d-none {display: none!important;}
-.position-static{position: static!important;}
-.position-a{position: absolute;}
-.justify-center{justify-content: center;}
-.justify-a-c{justify-items: center;}
-.justify-end{justify-content: end;}
 
-.text-white{color: #fff !important;}
-.text-center{text-align: center;}
-.text-d-none {text-decoration: none;}
-.text-d-underline {text-decoration: underline;}
-.border-b-blue {border-bottom: 1px solid #001a40 !important;}
-.border-b-gold {border-bottom: 1px solid #BF9C76 !important;}
+.collapsible { background-color: #ffffff; color: #001a40; cursor: pointer; padding: 16px; width: 100%; border: none; text-align: left; outline: none; font-size: 18px; } 
+.active,
+.collapsible:hover { background-color: #fdfdfd; } 
+.content { padding: 0 18px; display: none; overflow: hidden; background-color: #f1f1f1; } 
 
-.w-80 {width: 80%;}
-.w-60 {width: 60%;}
-.w-50 {width: 50%;}
-.w-45 {width: 45%;}
-.w-100{width: 100%;}
-.w-p-10{width: 10px;}
 
-.h72 { height: 72px; }
-.h76 { height: 76px; }
 
-.p-text{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
-    color: #FFFFFF;
-}
-.p-text a{
-    font-weight: 700;
-    color: #937651;
-    text-decoration: none;
-}
-
+.border-none { border-bottom: none; } 
+.border-b-blue { border-bottom: 1px solid #001a40; } 
+.border-b-gold { border-bottom: 1px solid #BF9C76; } 
+/* ./SignIn Page*/

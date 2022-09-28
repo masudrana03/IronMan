@@ -63,11 +63,15 @@
 
 
 
+
+
 .main1 {
     height: calc(100% - 91px);
     padding-bottom: 91px;
     overflow-y: auto;
 }
+
+
 
 .new-page-divider {
     height: 4px;
@@ -123,7 +127,6 @@
     text-align: center;
 }
 
-
 .menu-link.active .menu-icon path {
     fill: #fff;
 }
@@ -132,72 +135,8 @@
     color: #fff
 }
 
-
-
-
-.main {
-    /* height: calc(100vh - 91px); */
-    height: auto;
-    overflow: hidden;
-}
-
-.navbar-fixed .main {
-    height: calc(100% - 91px);
-    padding-bottom: 91px;
-    overflow-y: auto;
-}
-
-.navbar-fixed, .footer {
-    position: fixed;
-    z-index: 99;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    right: 0;
-}
-
-
-
-.main {
-    /* height: calc(100vh - 91px); */
-    height: auto;
-    overflow: hidden;
-}
-
-.navbar-fixed .main {
-    height: calc(100% - 91px);
-    padding-bottom: 91px;
-    overflow-y: auto;
-}
-
-.navbar-fixed, .footer {
-    position: fixed;
-    z-index: 99;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    right: 0;
-}
-
 /* new from control */
 .border-r-gray {
     border-radius: 10px;
     border: 1px solid #808080;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  */
