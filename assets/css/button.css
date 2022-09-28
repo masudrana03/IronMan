@@ -1,0 +1,132 @@
+
+.btn{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    height: 60px;
+    background: #AE9579;
+    border-radius: 40px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 10px 15px;
+    transition: all .3s ease-in-out;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: .8;
+}
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-finger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-block{width:100%;display:block;}
+
+
+.next-btn{
+    border-radius: 50px !important;
+    padding: 0px 20px !important;
+    width: 200px;
+    margin-left: 55px !important;
+    margin-top: 60px !important;
+    margin-bottom: 10px !important;
+}
+
+.new-btn {
+    border-radius: 10px !important;
+    padding: 6px 32px 6px 32px !important;
+    height: auto !important;
+    line-height: 34px !important;
+  }
+
+
+  .insurance-font-btn {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+  }
+  .insurance-btn {
+    border-radius: 50px !important;
+    padding: 0px 80px !important;
+  }
+
+
+
+  /*  */
+
+
+    
+  /* property details  */
+  .property-btn {
+    border-radius: 10px !important;
+    padding: 2px 16px 3px 16px !important;
+    height: auto !important;
+  }
+
+    /* property details  */
+    .property-btn {
+        border-radius: 50px !important;
+        padding: 0px 30px !important;
+      }
+
+
+      .new-btn {
+        border-radius: 50px !important;
+        padding: 4px 70px !important;
+        line-height: 34px !important;
+        text-align: center !important;
+      }
+  
+  
+.btn{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    background: #AE9579;
+    border-radius: 40px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 0px 0px;
+    transition: all .3s ease-in-out;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: .8;
+}
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-finger{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-block{width:100%;display:block;}
+/* new from control */
+.border-r-gray{
+    border-radius: 10px;
+    border: 1px solid #808080;
+}
+

@@ -1,0 +1,148 @@
+.main{
+    /* height: calc(100vh - 91px); */
+    height: auto;
+    overflow: hidden;
+}
+.navbar-fixed .main{
+    height: calc(100% - 91px);
+    padding-bottom: 91px;
+    overflow-y: auto;
+}
+.navbar-fixed, .footer{
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+/*  */
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #001229;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    height: 90px;
+}
+
+.menu-link {
+    display: block;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu-icon{margin-bottom: 5px;}
+.menu-text{display: block; text-align: center;}
+
+
+.menu-link.active .menu-icon path{fill: #fff;}
+.menu-link.active .menu-text{color:#fff}
+
+
+
+.main1 {
+    height: calc(100% - 91px);
+    padding-bottom: 91px;
+    overflow-y: auto;
+  }
+
+  .new-page-divider {
+    height: 4px;
+    width: auto;
+    background-color: #001a40;
+    display: block;
+  }
+
+  .new-menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #ffffff70;
+      padding-top: 24px;
+      padding-bottom: 12px;
+      height: 90px;
+  }
+
+  .menu-font{
+    color: #001a40;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #001229;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    height: 90px;
+}
+
+.menu-link {
+    display: block;
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.menu-icon{margin-bottom: 5px;}
+.menu-text{display: block; text-align: center;}
+
+
+.menu-link.active .menu-icon path{fill: #fff;}
+.menu-link.active .menu-text{color:#fff}
+
+
+
+
+.main{
+    /* height: calc(100vh - 91px); */
+    height: auto;
+    overflow: hidden;
+}
+.navbar-fixed .main{
+    height: calc(100% - 91px);
+    padding-bottom: 91px;
+    overflow-y: auto;
+}
+.navbar-fixed, .footer{
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
